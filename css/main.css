@@ -1,0 +1,339 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+}
+#navbar .eslogan h4 {
+  width: 100%;
+  font-size: large;
+  font-style: italic;
+  align-items: center;
+  text-align: center;
+  text-decoration: dotted;
+  font-size: 1rem;
+  color: #fff;
+}
+#navbar img {
+  width: 7rem;
+  height: 7rem;
+}
+
+#navbar {
+  background: rgba(0, 0, 0, 0.897);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  justify-content: flex-end;
+  transition: all 0.5s;
+}
+
+#navbar .collapse ul li a:hover {
+  background: #022236c5;
+  border-radius: 0.5rem;
+}
+
+.dropdown-menu {
+  background: rgba(0, 0, 0, 0.897);
+  width: 100%;
+}
+
+.dropdown ul li a {
+  padding: 0.5rem 0.2rem;
+  text-decoration: none;
+}
+.dropdown-menu a {
+  font-style: normal;
+  color: #fff;
+}
+.carousel {
+  padding-top: 9rem;
+}
+#ribbon {
+  background-color: #022236c5;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 25px,
+    #0c2a36d2 45px,
+    #000000b7 35px
+  );
+}
+#ribbon::after {
+  content: "";
+  background-color: transparent;
+  position: relative;
+  display: block;
+  height: 20px;
+  width: 50%;
+  margin: 0 auto;
+  left: auto;
+  margin-top: -50px;
+}
+#separator-ribbon {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+
+#bienvenida {
+  background-color: #022236c5;
+  position: relative;
+  margin-top: -20px;
+  z-index: 10;
+  box-shadow: 0 0 10px #faf8f89c;
+}
+#bienvenida img {
+  position: relative;
+  margin-top: -30px;
+}
+
+.inicio {
+  padding: 10rem;
+  color: #fff;
+}
+.inicio h1 {
+  color: #fff;
+}
+#informacion {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.5) 0%,
+    rgba(0, 0, 0, 1) 20%
+  );
+  background-repeat: repeat-x;
+  background-size: 75%;
+  margin-top: -20px;
+}
+#informacion h1 {
+  font-size: 2rem;
+}
+#informacion p {
+  text-align: justify;
+}
+#card1:hover {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 10%,
+    rgba(2, 34, 54, 0.773)
+  );
+  color: #fff;
+}
+.card {
+  background: #000;
+  width: auto;
+  height: auto;
+  padding: auto;
+}
+.card-border {
+  border: solid 0.2rem #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+.card-border:hover {
+  transform: scale(1.05);
+}
+#infoplus {
+  background: repeating-linear-gradient(
+    to top,
+    transparent,
+    transparent 10%,
+    rgba(10, 80, 140, 0.5)
+  );
+  border-radius: 1.5rem;
+}
+#infoplus h2 {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+#about a {
+  margin-right: 1rem;
+}
+
+#about {
+  align-items: center;
+  background: repeating-linear-gradient(
+    -180deg,
+    transparent,
+    transparent 10%,
+    rgba(8, 100, 136, 0.685)
+  );
+  border-radius: 1rem;
+}
+#about a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0.2rem 0.3rem;
+  display: inline-block;
+}
+#about a:hover {
+  color: #fff;
+  background: #022236c5;
+  border-radius: 5rem;
+  margin: 0.2rem 0.2rem;
+  padding: 0.2rem 0.2rem;
+}
+#about p {
+  color: #000;
+}
+#header h4 {
+  text-decoration: underline;
+  color: #052d44;
+}
+#header button {
+  color: rgb(177, 8, 8);
+  font-size: medium;
+  border-style: hidden;
+  border-radius: 5rem;
+}
+#header button:hover {
+  color: #e7f0f3;
+  background: rgba(177, 8, 8, 0.76);
+  border-style: inherit;
+}
+#header {
+  background: repeating-linear-gradient(
+    to top,
+    transparent,
+    transparent 10%,
+    rgba(5, 68, 87, 0.712)
+  );
+}
+#footer {
+  background: repeating-linear-gradient(
+    180deg,
+    transparent,
+    transparent 0%,
+    rgba(5, 68, 87, 0.812)
+  );
+}
+
+#separator-banner {
+  background:#ffffff80;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+}
+#separator-banner .content {
+  background-image: url(../img/baner.png);
+  background-repeat:no-repeat, repeat;
+  width: 110%;
+  height: 100px;
+  margin-left: -5%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+#servicios {
+  background: url(../img/header1.png), url(../img/body.png);
+   background-repeat: no-repeat, repeat;
+  background-position: bottom center, center center;
+  background-size: 105%;
+  color: #fff;
+ 
+}
+.card1 {
+  background: #000;
+  width: auto;
+  height: auto;
+  padding: auto;
+}
+.card1 p{
+  text-align: justify;
+}
+.card1-border {
+  border: solid 0.2rem #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.2s;
+}
+.card1-border:hover {
+  transform: scale(1.05);
+}
+
+#card2:hover {
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 10%,
+    rgba(2, 34, 54, 0.773)
+  );
+  color: #fff;
+}
+.social{
+  padding-bottom: 2rem;
+}
+.social h1 {
+  font-size: 1.4rem;
+}
+ul.social {
+  font-style: italic bold;
+  list-style-type: none;
+}
+.social-icon i {
+  color: #fff;
+}
+.social-icon button:hover  {
+  background: #1b88e2a4;
+  border-radius: 50%;
+}
+#cotizar{
+  padding-top: 0;
+  padding-bottom: 5rem;
+}
+#cotizar p a:hover{
+  border-color: #fff ;
+  color: #ffffff;
+  background: #022236c5;
+}
+#cotiza{
+  color: #000;
+}
+#contact{
+  color: #fff;
+}
+.contact-details h3 {
+  font-size: 1.5rem;
+}
+
+#head{
+  background:repeating-linear-gradient(0deg,transparent, transparent 0%, rgba(2,34,54,0.773));
+}
+#head button{
+  color: #7e0202d5;
+  border-radius: 5rem;
+  border-style: hidden;
+}
+#head button:hover{
+  color: #fff;
+  background: #7e0202d5;
+  border-style: inherit;
+}
+#footer input[type="submit"]{
+  border-radius: 1rem;
+  border-color: rgb(5, 5, 88);
+  background: #00f;
+}
+#footer input[type="submit"]:hover{
+  border-radius: 1rem;
+  border-color: rgb(5, 88, 33);
+  background: rgb(5, 114, 69);
+}
+#footer input[type="reset"]{
+  border-radius: 1rem;
+  border-color: rgb(88, 5, 5);
+  background: rgb(68, 3, 3);
+}
+#footer input[type="reset"]:hover{
+  border-radius: 1rem;
+  border-color: rgb(88, 5, 5);
+  background: rgb(223, 4, 4);
+}
+.footer{
+  color: #fff;
+  background:repeating-linear-gradient(-180deg,transparent, transparent 0%, rgba(2,34,54,0.773));
+}
+
+
